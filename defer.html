@@ -1,0 +1,26 @@
+<!-- defer is an HTML <script> attribute that allows an external 
+JavaScript file to be downloaded in parallel while the browser 
+parses the HTML, without blocking the parser. The downloaded 
+script is then executed after HTML parsing is complete, 
+in document order, and before DOMContentLoaded is fired. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS defer Example</title>
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <h2 id="firstHeading">
+        Welcome to JS
+    </h2>
+    <button id="firstButton">
+        Change Text
+    </button>
+</body>
+
+</html>

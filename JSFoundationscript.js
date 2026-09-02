@@ -625,16 +625,51 @@
 // console.log(msg.charAt(4));// returns a single characters from the string; does not support negative indexing 
 // console.log(msg.at(-1)); // returns the last character from the string; supports the negative indexing also.
 
+let msg = "hello world";
+// console.log(msg.replace('l','0')); // replace the first occurenece of the character in the string.
 
+// console.log(msg.replace(/l/g,"x"));// check the character globally inside the string and replace them 
+// with the specified character into it, this replace is done using the regex method.
 
+//console.log(msg.replaceAll("l","x")); // this is the newer method of java script to replace all the character 
+// globally inside the string.
 
+// console.log("My name is ", " Vishal Gupta");// this is the concat method and it is used to concat the two string
+//generally this can also be done using the template literals and using the + operator may be in future anyone can 
+// depreciate this method also.
 
+// console.log(msg.repeat(3))
 
+// console.log(msg.padStart(15));
+// console.log(msg.padStart(15,'*=*=*'));
+// console.log(msg.padEnd(15));
+// console.log(msg.padEnd(15,'*+'));
 
+// console.log(msg.padStart(15,'*').padEnd(19,'#'))
 
+// console.log(msg.split(""));
+// console.log(msg.split(" "));
+// console.log(msg.split("o"));
+// console.log(msg.split());
 
+// console.log(msg.split("").join("-"));
+// console.log("Vishal".toString());
+// console.log((123).toString());
+// console.log((true).toString());
+// console.log([1,2,3].toString());
 
+// console.log(msg.valueOf());
 
+// var a = "Hello World"; // primitive
+// var b = new String("Hello World") // string object
+// console.log(typeof(a));
+// console.log(typeof(b));
+
+// console.log(typeof b.valueOf());
+// console.log(typeof b.toString());
+
+// console.log(a===b);
+// console.log(a==b);
 
 
 

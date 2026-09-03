@@ -612,9 +612,9 @@
 // To check any uppercase character inside the string
 // console.log(msg.search(/[A-Z]/)); // it checks for the uppercase characters inside the string
 //  console.log(msg.search(/[a-z]/)); // provide the first occurence of the lower-case character inside the 
- // string
+// string
 
- // slice method is used to return the part of the substring inside an string
+// slice method is used to return the part of the substring inside an string
 
 //  console.log(msg.slice(0,4));
 //  console.log(msg.slice(-5,-3));// also support negative indexing 
@@ -671,11 +671,124 @@ let msg = "hello world";
 // console.log(a===b);
 // console.log(a==b);
 
+// let age = Number(prompt("Enter the age :"))
+// if(age >= 60){
+// console.log("Not Fit to Vote");
+// }else if(age >=18){
+//    console.log("Eligible to Vote!!")
+// }else{
+// console.log("Not Eligible to Vote!!");
+// }
 
+// switch(Number(prompt("Enter the day today")))
+// {
+//    case 0:
+//       console.log("Sunday");
+//       break;
+//    case 1:
+//       console.log("Monday");
+//       break;
+//    case 2:
+//       console.log("Tuesday");
+//       break;
+//    case 3:
+//       console.log("Wednesday");
+//       break;
+//    case 4:
+//       console.log("Thrusday");
+//       break;
+//    case 5:
+//       console.log("Friday");
+//       break;
+//    case 6:
+//       console.log("Saturday");
+//       break;
+//    default :
+//       console.log("Invalid day");
+// }
 
+// let marks = parseInt(prompt("Enter the marks "))
+// switch(true){
+//    case (marks > 90 && marks <=100):
+//       console.log("Grade A");
+//       break;
+//    case (marks > 80 && marks <=90):
+//       console.log("Grade B");
+//       break;
+//    case (marks > 70 && marks <=80):
+//       console.log("Grade C");
+//       break;
+//    case (marks > 60 && marks <=70):
+//       console.log("Grade D");
+//       break;
+//    default :
+//       console("Fail");
+//       break;
+// }
 
+// let age =parseInt(prompt("Enter your age :"));
+// switch(true){
+//    case (age>0 && age <=4):
+//       console.log("your ticket is Free");
+//       break;
+//    case (age>4 && age <=10):
+//       console.log("your ticket cost is rs 100");
+//       break;
+//    case (age>10 && age <=15):
+//       console.log("your ticket cost is rs 500");
+//       break;
+//    default:
+//       console.log("your ticket cost is rs 1000");
+//       break;
+// }
 
+// let age = parseInt(prompt("Enter your age "))
+// switch(age){
+//    case 0:
+//    case 1:
+//    case 2:
+//    case 3:
+//    case 4:
+//       console.log("Free");
+//       break; 
+//    case 5:
+//    case 6:
+//    case 7:
+//    case 8:
+//    case 9:
+//    case 10:
+//       console.log("100");
+//       break;  
+//    case 11:
+//    case 12:
+//    case 13:
+//    case 14:
+//    case 15:
+//       console.log("200");
+//       break;  
+//       case 5:
+//    default:
+//       console.log("500");
+//       break;  
+// }
 
+// let year = parseInt(prompt("Enter any year "))
+// if (year % 4 !== 0) {
+//    console.log(`${year} is not a leap year`);
+// } else {
+//    if (year % 100 !== 0) {
+//       console.log(`${year} is a leap year`);
+//    } else {
+//       if (year % 400 !== 0) {
+//          console.log(`${year} is not a leap year`);
+//       } else {
+//          console.log(`${year} is a leap year`)
+//       }
+//    }
+// }
 
-
-
+// if((year%4 === 0 && year%100 !== 0) || (year%400 === 0)){
+//    console.log(`${year} is a leap year`)
+// }else{
+//    console.log(`${year} is a leap year`)
+// }
